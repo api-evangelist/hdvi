@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://hdvi.com/newsroom/hdvi-soc2/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: HDVI completed an independent SOC 2 Type 2 examination (SOC 2 Type 1 in
+    Q1 2021; SOC 2 Type 2 in Q4 2021, 2022, and announced March 8, 2023), and states
+    SOC 2 Type 2 tests will continue annually.
+  source: https://hdvi.com/newsroom/hdvi-soc2/
+- id: iso-27001
+  conforms: false
+  evidence: HDVI requires vendors to complete a SOC 2 examination or adhere to ISO
+    27001, but does not claim its own ISO 27001 certification.
+compliance_program:
+  published: true
+  url: https://hdvi.com/newsroom/hdvi-soc2/
+  certifications:
+  - SOC 2 Type 2

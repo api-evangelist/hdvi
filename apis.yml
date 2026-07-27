@@ -1,7 +1,18 @@
 aid: hdvi
-name: Hdvi
-description: Hdvi is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: HDVI (High Definition Vehicle Insurance)
+description: >-
+  HDVI (High Definition Vehicle Insurance) is a Chicago-based commercial trucking
+  insurance company delivering modern, data-driven coverage for small and mid-size
+  fleet operators. Its flagship HDVI Shift product uses integrated telematics and
+  safety data to dynamically price premiums, rewarding safe driving with monthly
+  discounts of up to 20 percent, and its Fleet Portal gives fleets tools to improve
+  safety, reduce risk, maintain compliance, and lower costs. HDVI was added to the
+  API Evangelist network as a portfolio company of 8vc. As of this enrichment pass
+  the company publishes no public developer portal, API documentation, SDKs, or
+  OpenAPI; it operates a customer-facing Fleet Portal and telematics/ELD/dash-cam
+  partner integrations rather than an open developer program. This profile captures
+  the company's real public identity, its published llms.txt, its SOC 2 Type 2
+  compliance posture, and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://hdvi.com/wp-content/uploads/2023/01/HDVI-logo-social-tile.png
 tags:
 - Company
+- Insurance
+- InsurTech
+- Commercial Trucking
+- Fleet Management
+- Telematics
+- Vehicle Insurance
+- Risk Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,32 @@ maintainers:
 common:
 - type: Website
   url: https://hdvi.com
+- type: About
+  url: https://hdvi.com/about/
+- type: Blog
+  url: https://hdvi.com/blog/
+- type: Support
+  url: https://hdvi.com/contact/
+- type: SignUp
+  url: https://hdvi.com/quote/
+- type: Login
+  url: https://hdvi.com/login/
+- type: TermsOfService
+  url: https://hdvi.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://hdvi.com/privacy-policy/
+- type: Compliance
+  url: https://hdvi.com/newsroom/hdvi-soc2/
+- type: LLMsTxt
+  url: llms/hdvi-llms.txt
+- type: DomainSecurity
+  url: security/hdvi-domain-security.yml
+- type: Conformance
+  url: conformance/hdvi-conformance.yml
+- type: WellKnown
+  url: well-known/hdvi-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
